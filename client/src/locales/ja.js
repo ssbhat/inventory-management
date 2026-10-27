@@ -6,8 +6,15 @@ export default {
     orders: '注文',
     finance: '財務',
     demandForecast: '需要予測',
+    restocking: '補充発注',
     companyName: '触媒コンポーネンツ',
-    subtitle: '在庫管理システム'
+    subtitle: '在庫管理システム',
+    reports: 'レポート',
+    groupOperations: '業務',
+    groupAnalytics: '分析',
+    collapseSidebar: 'サイドバーを折りたたむ',
+    expandSidebar: 'サイドバーを展開',
+    openMenu: 'メニューを開く'
   },
 
   // Dashboard
@@ -126,7 +133,38 @@ export default {
       status: 'ステータス',
       expectedDelivery: '予定配達日',
       actualDelivery: '実際の配達日'
-    }
+    },
+    submittedOrders: '発注済みの注文',
+    submittedOrdersDescription: '補充発注タブから発注された注文',
+    noSubmittedOrders: 'まだ補充発注はありません。',
+    submittedDate: '発注日',
+    leadTime: 'リードタイム',
+    leadTimeDays: '{days}日'
+  },
+
+  // Restocking
+  restocking: {
+    title: '補充発注',
+    description: '予算を設定し、需要予測が強い品目を補充します',
+    budget: '利用可能な予算',
+    selectedTotal: '選択合計',
+    remaining: '残額',
+    recommendations: '推奨品目',
+    noRecommendations: '予算を増やすと推奨品目が表示されます。',
+    item: '品目',
+    trend: 'トレンド',
+    currentDemand: '現在の需要',
+    forecastedDemand: '予測',
+    quantity: '数量',
+    unitCost: '単価',
+    lineTotal: '小計',
+    leadTime: 'リードタイム',
+    leadTimeDays: '{days}日',
+    placeOrder: '発注する',
+    placing: '発注中...',
+    orderPlaced: '注文 {number} を発注しました。配達予定日: {date}。',
+    viewOrders: '注文で確認',
+    orderFailed: '発注に失敗しました'
   },
 
   // Finance/Spending
@@ -206,7 +244,8 @@ export default {
     backordered: 'バックオーダー',
     inStock: '在庫あり',
     lowStock: '在庫僅少',
-    adequate: '適量'
+    adequate: '適量',
+    submitted: '発注済み'
   },
 
   // Trends
